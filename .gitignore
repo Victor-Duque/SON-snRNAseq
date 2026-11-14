@@ -1,0 +1,29 @@
+# data and outputs (deposited in GEO / supplementary tables)
+RDS/
+CellBender/
+Excel/
+Figures/
+Data/
+Fisiologico/
+NeuroEstimator/
+*.rds
+*.rda
+*.RData
+*.h5
+*.xlsx
+*.tiff
+*.png
+*.pdf
+
+# R / Quarto
+.Rhistory
+.RData
+.Rproj.user/
+*_files/
+*.html
+.quarto/
+
+# credentials, never commit
+*.ovpn
+*creds*
+.env
